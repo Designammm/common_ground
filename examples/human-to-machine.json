@@ -1,0 +1,12 @@
+{
+  "intent": "Create a visual identity with a controlled but unconventional character.",
+  "context": {
+    "domain": "branding",
+    "audience": "design-literate"
+  },
+  "constraints": [
+    "Avoid generic minimalism",
+    "Maintain functional clarity"
+  ],
+  "confidence": 0.82
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Common Ground Message",
+  "type": "object",
+  "properties": {
+    "intent": {
+      "type": ["string", "null"]
+    },
+    "context": {
+      "type": "object"
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "confidence": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "required": ["intent", "context", "constraints", "confidence"]
+}
